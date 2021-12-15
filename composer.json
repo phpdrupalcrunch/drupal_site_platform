@@ -1,0 +1,32 @@
+{
+    "name": "phpdrupalcrunch/drupal_site_platform",
+    "description": "Project template for Drupal 9 site custtom platform.",
+    "license": "GPL-2.0-or-later",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "DW",
+            "role": "Drupal Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.7|>=8.0",
+        "drupal/core-recommended": "9.3.0",
+        "drupal/core-composer-scaffold": "9.3.0",
+        "drush/drush": "~10.3.5",
+        "drupal-composer/drupal-security-advisories": "8.x-dev",
+        "roave/security-advisories": "dev-master"
+    },
+    "extra": {
+        "_comment_readme": [
+            "This is backbone for drupal 9 based site"      
+        ]
+    },
+    "conflict": {
+        "drupal/mdevel": "*",
+        "drupal/module_builder": "*",
+        "drupal/php": "*"
+    }
+}
